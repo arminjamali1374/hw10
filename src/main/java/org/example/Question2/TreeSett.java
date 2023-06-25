@@ -2,7 +2,7 @@ package org.example.Question2;
 
 import java.util.*;
 
-public class TreeSett{
+public class TreeSett {
     public static void main(String[] args) {
         Random random = new Random();
 
@@ -19,4 +19,9 @@ public class TreeSett{
         System.out.println("Set 1: " + set1);
         System.out.println("Set 2: " + set2);
     }
+    public static void intersection(TreeSet<Character> set1, TreeSet<Character> set2) {
+        TreeSet<Character> result = new TreeSet<>(set1);
+        result.retainAll(set2);
+        System.out.println("Intersection: " + result);
     }
+}
