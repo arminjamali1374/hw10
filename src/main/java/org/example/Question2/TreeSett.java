@@ -24,4 +24,10 @@ public class TreeSett {
         result.retainAll(set2);
         System.out.println("Intersection: " + result);
     }
+
+    public static void union(TreeSet<Character> set1, TreeSet<Character> set2) {
+        TreeSet<Character> result = new TreeSet<>(set1);
+        result.addAll(set2);
+        System.out.println("Union: " + result);
+    }
 }
