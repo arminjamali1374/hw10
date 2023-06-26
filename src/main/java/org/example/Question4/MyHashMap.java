@@ -14,6 +14,9 @@ public class MyHashMap {
         boolean containsKey = myHashMap.containsKey("a");
         System.out.println("Contains key 'a': " + containsKey);
 
+        boolean isEmpty = myHashMap.isEmpty();
+        System.out.println("Is empty: " + isEmpty);
+
     }
 }
 
