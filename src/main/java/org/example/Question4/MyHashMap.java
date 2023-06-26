@@ -20,6 +20,14 @@ public class MyHashMap {
         int value = myHashMap.get("b");
         System.out.println("Value for key 'b': " + value);
 
+        myHashMap.replace("c", 4);
+
+        System.out.print("Values: ");
+        for (Integer val : myHashMap.values()) {
+            System.out.print(val + " ");
+
+
+        }
     }
 }
 
