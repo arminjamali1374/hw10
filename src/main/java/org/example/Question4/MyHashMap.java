@@ -11,6 +11,9 @@ public class MyHashMap {
         myHashMap.put("b", 2);
         myHashMap.put("c", 3);
 
+        boolean containsKey = myHashMap.containsKey("a");
+        System.out.println("Contains key 'a': " + containsKey);
+
     }
 }
 
