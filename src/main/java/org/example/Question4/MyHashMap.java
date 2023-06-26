@@ -17,6 +17,9 @@ public class MyHashMap {
         boolean isEmpty = myHashMap.isEmpty();
         System.out.println("Is empty: " + isEmpty);
 
+        int value = myHashMap.get("b");
+        System.out.println("Value for key 'b': " + value);
+
     }
 }
 
