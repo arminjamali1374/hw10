@@ -18,6 +18,9 @@ public class TreeSett {
 
         System.out.println("Set 1: " + set1);
         System.out.println("Set 2: " + set2);
+
+        union(set1, set2);
+        intersection(set1, set2);
     }
     public static void intersection(TreeSet<Character> set1, TreeSet<Character> set2) {
         TreeSet<Character> result = new TreeSet<>(set1);
