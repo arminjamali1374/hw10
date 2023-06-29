@@ -15,6 +15,7 @@ public class Main {
         ArrayList<Integer> list1 = new ArrayList<Integer>(Arrays.asList(1, 3, 7, 4, 3, 6, 5, 8, 5, 5, 2, 9, 7, 3));
         removeUnsuitablePairss(list1);
         System.out.println("Appropriate:" + list1);
+        System.out.println("Appropriate:" + list1);
     }
 
 }

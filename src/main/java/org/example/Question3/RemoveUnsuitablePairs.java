@@ -7,6 +7,7 @@ public class RemoveUnsuitablePairs {
         int size = list.size();
         if (size % 2 != 0) {
             size--;
+//            size--;
         }
         for (int i = 0; i < size; i += 2) {
             int left = list.get(i);

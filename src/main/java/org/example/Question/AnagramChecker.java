@@ -13,6 +13,7 @@ public class AnagramChecker {
             System.out.println("Pass");
         } else {
             System.out.println("Fail");
+            System.out.println("Fail");
         }
     }
 
